@@ -2,6 +2,14 @@
 
 This is a sample implementation of an FTSOv2 feed value provider that serves values for requested feed IDs. By default, it uses [CCXT](https://ccxt.readthedocs.io/) to fetch the latest values from supported exchanges. Alternatively, it can be configured to provide fixed or random values for testing purposes.
 
+## Running
+
+Rebuild after any changes.
+```bash
+docker compose build
+docker compose up -d
+```
+
 ## Configuration
 
 The provider behavior can be adjusted via the `VALUE_PROVIDER_IMPL` environment variable:

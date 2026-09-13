@@ -39,6 +39,12 @@ interface LoadResult {
 
 const RETRY_BACKOFF_MS = 10_000;
 
+// Relative weights; apply to all feeds using these exchanges.
+const EXCHANGE_WEIGHTS: Record<string, number> = {
+  binance: 2,
+  coinbase: 3,
+  kraken: 2,
+};
 // Parameter for exponential decay in time-weighted median price calculation
 const LAMBDA = process.env.MEDIAN_DECAY ? parseFloat(process.env.MEDIAN_DECAY) : 0.00005;
 const TRADES_HISTORY_SIZE = process.env.TRADES_HISTORY_SIZE ? parseInt(process.env.TRADES_HISTORY_SIZE) : 1000; // 1000 is default in ccxt
@@ -416,9 +422,19 @@ export class CcxtFeed implements BaseDataFeed {
     const now = Date.now();
 
     // Calculate exponential weights
+    // const weights = prices.map((data) => {
+    //   const timeDifference = now - data.time;
+    //   return Math.exp(-LAMBDA * timeDifference); // Exponential decay
+    // });
     const weights = prices.map((data) => {
+      const exchangeWeight = EXCHANGE_WEIGHTS[data.exchange] ?? 1;
+
+      if (!Number.isFinite(exchangeWeight) || exchangeWeight <= 0) {
+        throw new Error(`Invalid weight for ${data.exchange}`);
+      }
+
       const timeDifference = now - data.time;
-      return Math.exp(-LAMBDA * timeDifference); // Exponential decay
+      return exchangeWeight * Math.exp(-LAMBDA * timeDifference);
     });
 
     // Normalize weights to sum to 1
