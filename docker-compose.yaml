@@ -1,0 +1,12 @@
+name: feed-value-provider
+
+services:
+  feed-value-provider:
+#    build: .
+    # container_name: ${COMPOSE_PROJECT_NAME}-feed-value-provider
+    image: ghcr.io/flare-foundation/ftso-v2-example-value-provider:latest
+  #   environment:
+  #     VALUE_PROVIDER_IMPL: "fixed"
+    ports:
+      - "3101:3101"
+    restart: unless-stopped
