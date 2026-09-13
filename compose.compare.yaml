@@ -1,0 +1,14 @@
+name: feed-value-compare
+
+services:
+  feed-value-provider-local:
+    build: .
+    ports:
+      - "4101:3101"
+    restart: unless-stopped
+
+  feed-value-provider-ghcr:
+    image: ghcr.io/flare-foundation/ftso-v2-example-value-provider:latest
+    ports:
+      - "4102:3101"
+    restart: unless-stopped

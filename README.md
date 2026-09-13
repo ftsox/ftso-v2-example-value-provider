@@ -10,6 +10,30 @@ docker compose build
 docker compose up -d
 ```
 
+## Compare local and published provider prices
+
+Place `compose.compare.yaml` and `compare_prices.py` in the repository root. Start the local build on port **4101** and the published GHCR image on port **4102**, using a separate Compose project:
+
+```bash
+docker compose -p feed-value-compare -f compose.compare.yaml pull feed-value-provider-ghcr
+docker compose -p feed-value-compare -f compose.compare.yaml up -d --build
+```
+
+Compare all assets in `src/config/feeds.json` and save the results to CSV (requires Python 3; no extra packages):
+
+```bash
+python3 compare_prices.py --csv prices.csv
+```
+
+The script reports both prices and their differences, retrying missing prices for up to 60 seconds. Add `--wait 0` for an immediate snapshot. Prices can differ because the providers collect market data independently.
+
+Stop and remove the comparison containers:
+
+```bash
+docker compose -p feed-value-compare -f compose.compare.yaml down
+```
+
+
 ## Configuration
 
 The provider behavior can be adjusted via the `VALUE_PROVIDER_IMPL` environment variable:

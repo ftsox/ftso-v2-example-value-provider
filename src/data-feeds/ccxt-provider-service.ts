@@ -41,9 +41,9 @@ const RETRY_BACKOFF_MS = 10_000;
 
 // Relative weights; apply to all feeds using these exchanges.
 const EXCHANGE_WEIGHTS: Record<string, number> = {
-  binance: 2,
-  coinbase: 3,
-  kraken: 2,
+  binance: 1.2,
+  coinbase: 1.5,
+  kraken: 1.2,
 };
 // Parameter for exponential decay in time-weighted median price calculation
 const LAMBDA = process.env.MEDIAN_DECAY ? parseFloat(process.env.MEDIAN_DECAY) : 0.00005;
