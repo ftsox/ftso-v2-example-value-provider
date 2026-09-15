@@ -24,10 +24,6 @@
       {
         "exchange": "kraken",
         "symbol": "FLR/USD"
-      },
-      {
-        "exchange": "kucoin",
-        "symbol": "FLR/USDT"
       }
     ]
   },
@@ -44,10 +40,6 @@
       {
         "exchange": "mexc",
         "symbol": "SGB/USDT"
-      },
-      {
-        "exchange": "coinex",
-        "symbol": "SGB/USDT"
       }
     ]
   },
@@ -63,10 +55,6 @@
       },
       {
         "exchange": "coinbase",
-        "symbol": "BTC/USD"
-      },
-      {
-        "exchange": "cryptocom",
         "symbol": "BTC/USD"
       },
       {
@@ -95,10 +83,6 @@
     "sources": [
       {
         "exchange": "binance",
-        "symbol": "XRP/USDT"
-      },
-      {
-        "exchange": "cryptocom",
         "symbol": "XRP/USDT"
       },
       {
@@ -139,10 +123,6 @@
       },
       {
         "exchange": "gate",
-        "symbol": "LTC/USDT"
-      },
-      {
-        "exchange": "bitget",
         "symbol": "LTC/USDT"
       },
       {
@@ -188,10 +168,6 @@
       {
         "exchange": "bybit",
         "symbol": "XLM/USDT"
-      },
-      {
-        "exchange": "htx",
-        "symbol": "XLM/USDT"
       }
     ]
   },
@@ -212,10 +188,6 @@
       {
         "exchange": "coinbase",
         "symbol": "DOGE/USD"
-      },
-      {
-        "exchange": "bitget",
-        "symbol": "DOGE/USDT"
       },
       {
         "exchange": "gate",
@@ -260,10 +232,6 @@
       {
         "exchange": "coinbase",
         "symbol": "ADA/USD"
-      },
-      {
-        "exchange": "kucoin",
-        "symbol": "ADA/USDT"
       }
     ]
   },
@@ -276,10 +244,6 @@
       {
         "exchange": "coinbase",
         "symbol": "ALGO/USD"
-      },
-      {
-        "exchange": "mexc",
-        "symbol": "ALGO/USDT"
       },
       {
         "exchange": "gate",
@@ -322,10 +286,6 @@
         "symbol": "ETH/USDT"
       },
       {
-        "exchange": "kucoin",
-        "symbol": "ETH/USDT"
-      },
-      {
         "exchange": "okx",
         "symbol": "ETH/USDT"
       },
@@ -347,10 +307,6 @@
     "sources": [
       {
         "exchange": "binance",
-        "symbol": "FIL/USDT"
-      },
-      {
-        "exchange": "htx",
         "symbol": "FIL/USDT"
       },
       {
@@ -379,10 +335,6 @@
       },
       {
         "exchange": "binance",
-        "symbol": "ARB/USDT"
-      },
-      {
-        "exchange": "mexc",
         "symbol": "ARB/USDT"
       },
       {
@@ -430,10 +382,6 @@
         "symbol": "AVAX/USDT"
       },
       {
-        "exchange": "htx",
-        "symbol": "AVAX/USDT"
-      },
-      {
         "exchange": "kucoin",
         "symbol": "AVAX/USDT"
       }
@@ -451,10 +399,6 @@
       },
       {
         "exchange": "xt",
-        "symbol": "BNB/USDT"
-      },
-      {
-        "exchange": "htx",
         "symbol": "BNB/USDT"
       },
       {
@@ -492,10 +436,6 @@
       {
         "exchange": "bybit",
         "symbol": "POL/USDT"
-      },
-      {
-        "exchange": "htx",
-        "symbol": "POL/USDT"
       }
     ]
   },
@@ -512,10 +452,6 @@
       {
         "exchange": "bitget",
         "symbol": "SOL/USDT"
-      },
-      {
-        "exchange": "cryptocom",
-        "symbol": "SOL/USD"
       },
       {
         "exchange": "coinbase",
@@ -554,10 +490,6 @@
         "symbol": "USDC/USDT"
       },
       {
-        "exchange": "kraken",
-        "symbol": "USDC/USDT"
-      },
-      {
         "exchange": "bitget",
         "symbol": "USDC/USDT"
       }
@@ -578,10 +510,6 @@
         "symbol": "USDT/USD"
       },
       {
-        "exchange": "cryptocom",
-        "symbol": "USDT/USD"
-      },
-      {
         "exchange": "bitfinex",
         "symbol": "USDT/USD"
       },
@@ -599,10 +527,6 @@
     "sources": [
       {
         "exchange": "htx",
-        "symbol": "XDC/USDT"
-      },
-      {
-        "exchange": "bitrue",
         "symbol": "XDC/USDT"
       },
       {
@@ -631,10 +555,6 @@
       },
       {
         "exchange": "binance",
-        "symbol": "TRX/USDT"
-      },
-      {
-        "exchange": "htx",
         "symbol": "TRX/USDT"
       },
       {
@@ -676,10 +596,6 @@
       {
         "exchange": "bybit",
         "symbol": "LINK/USDT"
-      },
-      {
-        "exchange": "htx",
-        "symbol": "LINK/USDT"
       }
     ]
   },
@@ -695,10 +611,6 @@
       },
       {
         "exchange": "htx",
-        "symbol": "ATOM/USDT"
-      },
-      {
-        "exchange": "xt",
         "symbol": "ATOM/USDT"
       },
       {
@@ -719,10 +631,6 @@
       },
       {
         "exchange": "binance",
-        "symbol": "DOT/USDT"
-      },
-      {
-        "exchange": "bitget",
         "symbol": "DOT/USDT"
       },
       {
@@ -778,10 +686,6 @@
         "symbol": "GRAM/USDT"
       },
       {
-        "exchange": "htx",
-        "symbol": "GRAM/USDT"
-      },
-      {
         "exchange": "gate",
         "symbol": "GRAM/USDT"
       }
@@ -818,10 +722,6 @@
         "symbol": "GRAM/USDT"
       },
       {
-        "exchange": "htx",
-        "symbol": "GRAM/USDT"
-      },
-      {
         "exchange": "gate",
         "symbol": "GRAM/USDT"
       }
@@ -833,10 +733,6 @@
       "name": "ICP/USD"
     },
     "sources": [
-      {
-        "exchange": "gate",
-        "symbol": "ICP/USDT"
-      },
       {
         "exchange": "binance",
         "symbol": "ICP/USDT"
@@ -890,10 +786,6 @@
         "symbol": "SHIB/USDT"
       },
       {
-        "exchange": "htx",
-        "symbol": "SHIB/USDT"
-      },
-      {
         "exchange": "okx",
         "symbol": "SHIB/USDT"
       }
@@ -911,10 +803,6 @@
       },
       {
         "exchange": "okx",
-        "symbol": "USDS/USDT"
-      },
-      {
-        "exchange": "mexc",
         "symbol": "USDS/USDT"
       },
       {
@@ -950,10 +838,6 @@
         "symbol": "BCH/USD"
       },
       {
-        "exchange": "htx",
-        "symbol": "BCH/USDT"
-      },
-      {
         "exchange": "xt",
         "symbol": "BCH/USDT"
       },
@@ -971,10 +855,6 @@
     "sources": [
       {
         "exchange": "binance",
-        "symbol": "NEAR/USDT"
-      },
-      {
-        "exchange": "mexc",
         "symbol": "NEAR/USDT"
       },
       {
@@ -1016,10 +896,6 @@
       {
         "exchange": "gate",
         "symbol": "LEO/USDT"
-      },
-      {
-        "exchange": "xt",
-        "symbol": "LEO/USDT"
       }
     ]
   },
@@ -1048,10 +924,6 @@
       {
         "exchange": "kucoin",
         "symbol": "UNI/USDT"
-      },
-      {
-        "exchange": "htx",
-        "symbol": "UNI/USDT"
       }
     ]
   },
@@ -1063,10 +935,6 @@
     "sources": [
       {
         "exchange": "bitget",
-        "symbol": "ETC/USDT"
-      },
-      {
-        "exchange": "mexc",
         "symbol": "ETC/USDT"
       },
       {
@@ -1099,10 +967,6 @@
     "sources": [
       {
         "exchange": "binance",
-        "symbol": "WIF/USDT"
-      },
-      {
-        "exchange": "gate",
         "symbol": "WIF/USDT"
       },
       {
@@ -1142,10 +1006,6 @@
         "symbol": "BONK/USD"
       },
       {
-        "exchange": "htx",
-        "symbol": "BONK/USDT"
-      },
-      {
         "exchange": "okx",
         "symbol": "BONK/USDT"
       }
@@ -1180,10 +1040,6 @@
       {
         "exchange": "kucoin",
         "symbol": "JUP/USDT"
-      },
-      {
-        "exchange": "bitget",
-        "symbol": "JUP/USDT"
       }
     ]
   },
@@ -1212,10 +1068,6 @@
       {
         "exchange": "coinbase",
         "symbol": "ETHFI/USD"
-      },
-      {
-        "exchange": "bitget",
-        "symbol": "ETHFI/USDT"
       }
     ]
   },
@@ -1227,10 +1079,6 @@
     "sources": [
       {
         "exchange": "binance",
-        "symbol": "ENA/USDT"
-      },
-      {
-        "exchange": "gate",
         "symbol": "ENA/USDT"
       },
       {
@@ -1274,10 +1122,6 @@
         "symbol": "PYTH/USDT"
       },
       {
-        "exchange": "bitget",
-        "symbol": "PYTH/USDT"
-      },
-      {
         "exchange": "coinbase",
         "symbol": "PYTH/USD"
       },
@@ -1303,10 +1147,6 @@
       },
       {
         "exchange": "gate",
-        "symbol": "HNT/USDT"
-      },
-      {
-        "exchange": "bitget",
         "symbol": "HNT/USDT"
       },
       {
@@ -1346,10 +1186,6 @@
         "symbol": "SUI/USDT"
       },
       {
-        "exchange": "bitget",
-        "symbol": "SUI/USDT"
-      },
-      {
         "exchange": "kucoin",
         "symbol": "SUI/USDT"
       }
@@ -1384,10 +1220,6 @@
       {
         "exchange": "kucoin",
         "symbol": "PEPE/USDT"
-      },
-      {
-        "exchange": "htx",
-        "symbol": "PEPE/USDT"
       }
     ]
   },
@@ -1411,10 +1243,6 @@
       },
       {
         "exchange": "gate",
-        "symbol": "QNT/USDT"
-      },
-      {
-        "exchange": "bitget",
         "symbol": "QNT/USDT"
       },
       {
@@ -1454,10 +1282,6 @@
         "symbol": "AAVE/USDT"
       },
       {
-        "exchange": "htx",
-        "symbol": "AAVE/USDT"
-      },
-      {
         "exchange": "mexc",
         "symbol": "AAVE/USDT"
       }
@@ -1471,10 +1295,6 @@
     "sources": [
       {
         "exchange": "binance",
-        "symbol": "S/USDT"
-      },
-      {
-        "exchange": "gate",
         "symbol": "S/USDT"
       },
       {
@@ -1518,10 +1338,6 @@
         "symbol": "ONDO/USDT"
       },
       {
-        "exchange": "kucoin",
-        "symbol": "ONDO/USDT"
-      },
-      {
         "exchange": "bitget",
         "symbol": "ONDO/USDT"
       },
@@ -1554,10 +1370,6 @@
         "symbol": "TAO/USDT"
       },
       {
-        "exchange": "bitget",
-        "symbol": "TAO/USDT"
-      },
-      {
         "exchange": "kucoin",
         "symbol": "TAO/USDT"
       }
@@ -1583,10 +1395,6 @@
       },
       {
         "exchange": "okx",
-        "symbol": "FET/USDT"
-      },
-      {
-        "exchange": "bitget",
         "symbol": "FET/USDT"
       },
       {
@@ -1620,10 +1428,6 @@
       {
         "exchange": "kraken",
         "symbol": "RENDER/USD"
-      },
-      {
-        "exchange": "bitget",
-        "symbol": "RENDER/USDT"
       }
     ]
   },
@@ -1639,10 +1443,6 @@
       },
       {
         "exchange": "binance",
-        "symbol": "NOT/USDT"
-      },
-      {
-        "exchange": "bitget",
         "symbol": "NOT/USDT"
       },
       {
@@ -1671,10 +1471,6 @@
       },
       {
         "exchange": "binance",
-        "symbol": "RUNE/USDT"
-      },
-      {
-        "exchange": "gate",
         "symbol": "RUNE/USDT"
       },
       {
@@ -1707,10 +1503,6 @@
       },
       {
         "exchange": "mexc",
-        "symbol": "TRUMP/USDT"
-      },
-      {
-        "exchange": "bybit",
         "symbol": "TRUMP/USDT"
       },
       {
@@ -1751,10 +1543,6 @@
       {
         "exchange": "kucoin",
         "symbol": "HBAR/USDT"
-      },
-      {
-        "exchange": "htx",
-        "symbol": "HBAR/USDT"
       }
     ]
   },
@@ -1778,10 +1566,6 @@
       },
       {
         "exchange": "bybit",
-        "symbol": "PENGU/USDT"
-      },
-      {
-        "exchange": "bitget",
         "symbol": "PENGU/USDT"
       },
       {
@@ -1819,10 +1603,6 @@
       {
         "exchange": "bingx",
         "symbol": "HYPE/USDT"
-      },
-      {
-        "exchange": "xt",
-        "symbol": "HYPE/USDT"
       }
     ]
   },
@@ -1838,10 +1618,6 @@
       },
       {
         "exchange": "okx",
-        "symbol": "APT/USDT"
-      },
-      {
-        "exchange": "mexc",
         "symbol": "APT/USDT"
       },
       {
@@ -1866,10 +1642,6 @@
       },
       {
         "exchange": "xt",
-        "symbol": "PAXG/USDT"
-      },
-      {
-        "exchange": "mexc",
         "symbol": "PAXG/USDT"
       },
       {
@@ -1902,10 +1674,6 @@
       },
       {
         "exchange": "mexc",
-        "symbol": "BERA/USDT"
-      },
-      {
-        "exchange": "bitget",
         "symbol": "BERA/USDT"
       },
       {
@@ -1947,10 +1715,6 @@
       {
         "exchange": "bybit",
         "symbol": "OP/USDT"
-      },
-      {
-        "exchange": "mexc",
-        "symbol": "OP/USDT"
       }
     ]
   },
@@ -1960,10 +1724,6 @@
       "name": "PUMP/USD"
     },
     "sources": [
-      {
-        "exchange": "kraken",
-        "symbol": "PUMP/USD"
-      },
       {
         "exchange": "binance",
         "symbol": "PUMP/USDT"
@@ -2009,10 +1769,6 @@
         "symbol": "XPL/USDT"
       },
       {
-        "exchange": "kucoin",
-        "symbol": "XPL/USDT"
-      },
-      {
         "exchange": "bitget",
         "symbol": "XPL/USDT"
       },
@@ -2041,10 +1797,6 @@
         "symbol": "MON/USDT"
       },
       {
-        "exchange": "kucoin",
-        "symbol": "MON/USDT"
-      },
-      {
         "exchange": "bitget",
         "symbol": "MON/USDT"
       }
@@ -2058,10 +1810,6 @@
     "sources": [
       {
         "exchange": "bybit",
-        "symbol": "NIGHT/USDT"
-      },
-      {
-        "exchange": "gate",
         "symbol": "NIGHT/USDT"
       },
       {
